@@ -14,7 +14,7 @@ Hi! I'm Halsey Swetzoff, a Software Engineer from Colorado. I specialize in full
 A React Native mobile app POC for live event discovery and user favorites populated feed.
 - **Tech Stack**: React Native, Expo, Node.js, Express, JWT Auth, Prisma ORM, PostgreSQL, React Navigation, Axios API requests with Ticketmaster and Stripe API integration, Lodash
 - **Features**: Secure storage for user profile data including Stripe integration, personal favorites (artists, venues, sports teams, genres) and a personal feed of upcoming events based on user preferences! Save events, or buy tickets instantly. Feature to show events close to the user location using Expo Location.
-- **[View Video of App in README](https://github.com/HalsSwetz/Viva-app-frontend)** | **[GitHub Repo](https://github.com/HalsSwetz/Viva-App)(https://github.com/HalsSwetz/Viva-app-frontend)** 
+- **[View Video of App in README](https://github.com/HalsSwetz/Viva-app-frontend)** | **[GitHub Repo](https://github.com/HalsSwetz/Viva-app-frontend)** 
 
 ### BudgeEase
 A smart and simple budgeting app for small businesses to track monthly costs
@@ -26,7 +26,7 @@ A smart and simple budgeting app for small businesses to track monthly costs
 Social platform for bartenders to share cocktail recipes and discover new drinks.
 - **Tech Stack**: JavaScript, React, Express.js, MongoDB, HTML/CSS
 - **Features**: User profiles, recipe creation, ratings, comments, and discovery features
-- **[View Live](https://barfly.netlify.app/)** | **[GitHub Repo](https://github.com/HalsSwetz/bartender-app-collaboration-front-end)(https://github.com/HalsSwetz/bartender-app-collaboration)**
+- **[View Live](https://barfly.netlify.app/)** | **[GitHub Repo](https://github.com/HalsSwetz/bartender-app-collaboration-front-end)**
 
 ## 💻 Skills
 
@@ -54,7 +54,7 @@ Social platform for bartenders to share cocktail recipes and discover new drinks
 ## 🎓 Education & Certifications
 
 - **Software Engineering Immersive** - General Assembly (2025)
-- **Associate's Degree in Computer Science** - Valencia College (In Progress)
+- **Bachelor's Degree in Applied Economics** -  University of Vermont
 
 ## 🔍 About This Portfolio
 
