@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" type="image/png" href="./images/letterH.png" />
+  <link rel="stylesheet" href="index.css" />
+
+  <title>Halsey Swetzoff | Software Engineer</title>
+  <meta name="description" content="Professional portfolio of Halsey Swetzoff, a skilled web developer showcasing projects and expertise.">
+  <meta name="keywords" content="Halsey Swetzoff, Web Development, Frontend, UI/UX, JavaScript, React, Portfolio" />
+</head>
+
+<body>
+  <!-- Header -->
+  <header class="header" role="banner" id="top">
+    <div class="row">
+      <nav class="nav" role="navigation">
+        <ul class="nav__items">
+          <li class="nav__item"><a href="#work" class="nav__link">Projects</a></li>
+          <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+          <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+          <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="header__text-box row">
+      <div class="header__text">
+        <h1 class="heading-primary">
+          <span>Halsey Swetzoff</span>
+        </h1>
+        <p>Full Stack Developer | Software Engineer </p>
+        <a href="#contact" class="btn btn--primary">Get in touch</a>
+      </div>
+    </div>
+  </header>
+
+  <main role="main">
+    <!-- Projects Section -->
+    <section class="work" id="work">
+      <div class="row">
+        <h2>My Projects</h2>
+        
+        <!-- Filter Navigation -->
+        <div class="project-filter-nav">
+          <button class="project-filter-btn active" data-filter="all">All Projects</button>
+          <button class="project-filter-btn" data-filter="freelance">Client Work</button>
+          <button class="project-filter-btn" data-filter="personal">Personal Projects</button>
+        </div>
+
+        <!-- Projects Grid -->
+        <div class="portfolio-projects-grid">
+          <!-- Freelance Project -->
+          <div class="portfolio-project-card freelance" data-category="freelance">
+            <div class="portfolio-project-badge freelance">Client Work</div>
+            <img src="images/" alt="Website" class="portfolio-project-image" />
+            <div class="portfolio-project-content">
+              <h3 class="portfolio-project-title">Need to update</h3>
+              <p class="portfolio-project-description">
+                TBD
+              </p>
+              <ul class="portfolio-project-tech">
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>JavaScript</li>
+                <li>Responsive Design</li>
+                <li>Audio Integration</li>
+                <li>Gallery System</li>
+                <li>SEO Optimization</li>
+              </ul>
+              <div class="portfolio-project-links">
+                <a href="" class="link__text" target="_blank" rel="noopener noreferrer">
+                  View Live Site <span>&rarr;</span>
+                </a>
+                <a href="#" class="portfolio-project-code" title="Private Repository">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Personal Project 1 -->
+          <div class="portfolio-project-card personal" data-category="personal">
+            <div class="portfolio-project-badge personal">Personal</div>
+            <img src="images/project-1.jpg" alt="VIVA App" class="portfolio-project-image" />
+            <div class="portfolio-project-content">
+              <h3 class="portfolio-project-title">VIVA</h3>
+              <p class="portfolio-project-description">
+                A mobile event dicovery app that allows users to securely sign up, add favorites and locations, and get a personalized events feed with one-click purchase for tickets.
+              </p>
+              <ul class="portfolio-project-tech">
+                <li>React Native</li>
+                <li>Node.js</li>
+                <li>Express</li>
+              </ul>
+              <div class="portfolio-project-links">
+                <a href="https://github.com/HalsSwetz/Viva-app-frontend" class="link__text">
+                  View Project <span>&rarr;</span>
+                </a>
+                <a href="https://github.com/HalsSwetz/Viva-app-frontend" class="portfolio-project-code" title="View Source Code">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 2 -->
+          <div class="portfolio-project-card personal" data-category="personal">
+            <div class="portfolio-project-badge personal">Personal</div>
+            <img src="images/screenshot.png" alt="Waves" class="portfolio-project-image" />
+            <div class="portfolio-project-content">
+              <h3 class="portfolio-project-title">Waves</h3>
+              <p class="portfolio-project-description">
+                Waves is a full-stack web application designed for surf travel enthusiasts to discover and share surf spots, or to let other users know all the amazing places they've been. Users can create profiles, add new wave locations, browse existing spots and profiles, and mark locations as safe or unsafe, along with other details.
+              </p>
+              <ul class="portfolio-project-tech">
+                <li>JavaScript</li>
+                <li>Node.js</li>
+                <li>Express.js</li>
+                <li>HTML/CSS</li>
+                <li>MongoDB/Heroku</li>
+              </ul>
+              <div class="portfolio-project-links">
+                <a href="https://waves-app-cowabunga-8b1079b931c6.herokuapp.com/" class="link__text">
+                  View Project <span>&rarr;</span>
+                </a>
+                <a href="https://github.com/HalsSwetz/surf-tracker-app" class="portfolio-project-code" title="View Source Code">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 3 -->
+          <div class="portfolio-project-card personal" data-category="personal">
+            <div class="portfolio-project-badge personal">Personal</div>
+            <img src="images/project-3.jpg" alt="BarFly" class="portfolio-project-image" />
+            <div class="portfolio-project-content">
+              <h3 class="portfolio-project-title">BarFly</h3>
+              <p class="portfolio-project-description">
+                BarFly is a social platform for bartenders (and users interested in advancing their knowledge!) to create profiles, share their favorite cocktail recipes, and interact with other users by rating, commenting, and discovering new drinks!
+              </p>
+              <ul class="portfolio-project-tech">
+                <li>JavaScript</li>
+                <li>JWT Authentication</li>
+                <li>React/React Router</li>
+                <li>CSS</li>
+              </ul>
+              <div class="portfolio-project-links">
+                <a href="https://barfly.netlify.app/" class="link__text">
+                  View Project <span>&rarr;</span>
+                </a>
+                <a href="https://github.com/HalsSwetz/bartender-app-collaboration-front-end" class="portfolio-project-code" title="View Source Code">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+          
+           <!-- Personal Project 4 -->
+          <div class="portfolio-project-card personal" data-category="personal">
+            <div class="portfolio-project-badge personal">Personal</div>
+            <img src="images/dashboard.jpg" alt="InvoiceMaid" class="portfolio-project-image" />
+            <div class="portfolio-project-content">
+              <h3 class="portfolio-project-title">InvoiceMaid</h3>
+              <p class="portfolio-project-description">
+                InvoiceMaid is a modern, Django-based invoice management system designed specifically for freelancers and small businesses. I built this application to simplify the invoicing process after struggling with overly complex accounting software.
+              </p>
+              <ul class="portfolio-project-tech">
+                <li>Python</li>
+                <li>Django</li>
+                <li>JavaScript</li>
+                <li>SQLite</li>
+                <li>PostgreSQL</li>
+                <li>HTML5/CSS3</li>
+              </ul>
+              <div class="portfolio-project-links">
+                <a href="https://invoicemaid-2681961b5215.herokuapp.com/" class="link__text">
+                  View Project <span>&rarr;</span>
+                </a>
+                <a href="https://github.com/Dyoumans1/invoice-mate" class="portfolio-project-code" title="View Source Code">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills" id="skills">
+      <div class="row">
+        <h2>My Skills</h2>
+        <div class="skills__content">
+          <div class="skills__category">
+            <h3>Frontend</h3>
+            <ul class="skills__list">
+              <li class="skills__item">HTML5 & CSS3</li>
+              <li class="skills__item">JavaScript (ES6+)</li>
+              <li class="skills__item">React.js</li>
+              <li class="skills__item">DOM Manipulation</li>
+              <li class="skills__item">Responsive Design</li>
+            </ul>
+          </div>
+          
+          <div class="skills__category">
+            <h3>Backend</h3>
+            <ul class="skills__list">
+              <li class="skills__item">Node.js</li>
+              <li class="skills__item">Express</li>
+              <li class="skills__item">RESTful APIs</li>
+              <li class="skills__item">Python</li>
+              <li class="skills__item">Django</li>
+              <li class="skills__item">SQL</li>
+            </ul>
+          </div>
+          
+          <div class="skills__category">
+            <h3>Tools & Others</h3>
+            <ul class="skills__list">
+              <li class="skills__item">Git & GitHub</li>
+              <li class="skills__item">MongoDB</li>
+              <li class="skills__item">Vs Code</li>
+              <li class="skills__item">npm</li>
+              <li class="skills__item">Heroku</li>
+              <li class="skills__item">Postman</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+      <div class="row">
+        <h2>About Me</h2>
+        <div class="about__content">
+          <div class="about__text">
+            <p>
+              From warehouse worker to math teacher to web developer—my unconventional journey has equipped me with unique strengths. I combine analytical thinking from teaching algebra with practical efficiency from logistics work.
+            </p>
+            <p>
+              I create responsive, user-friendly websites through clean code and intuitive design, consistently exceeding client expectations. What drives me is the field's constant evolution—I thrive on mastering new technologies and methodologies.
+            </p>
+            <p>
+              After years of searching, I've found a career that genuinely excites me about the future. Whether working on personal projects or collaborating with clients, I bring the same dedication to delivering high-quality solutions.
+            </p>
+            <a href="https://drive.google.com/file/d/1_Fr6dv39N2o8FQujeCMBarQmVMduXzso/view?usp=sharing" class="btn">Download Resume</a>
+          </div>
+
+          <div class="about__photo-container">
+            <img class="about__photo" src="./images/profilePic.jpeg" alt="Derrik Youmans" />
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Contact Section -->
+  <section class="contact" id="contact">
+    <div class="row">
+      <h2>Get in Touch</h2>
+      <div class="contact__info">
+        <p>
+          I'm always open to discussing new projects, creative ideas, or opportunities to be part of your visions. 
+          Whether you have a question or just want to say hello, I'll try my best to get back to you as soon as possible.
+        </p>
+        <a href="mailto:derrikyoumans416@gmail.com" class="btn">derrikyoumans416@gmail.com</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer role="contentinfo" class="footer">
+    <div class="row">
+      <ul class="footer__social-links">
+        <li class="footer__social-link-item">
+          <a href="https://github.com/Dyoumans1" title="Link to Github Profile">
+            <img src="./images/github.svg" class="footer__social-image" alt="Github">
+          </a>
+        </li>
+        <li class="footer__social-link-item">
+          <a href="https://www.linkedin.com/in/derrik-youmans-1b18a634a/" title="Link to LinkedIn Profile">
+            <img src="./images/linkedin.svg" title="Link to Linkedin Profile" class="footer__social-image" alt="Linkedin">
+          </a>
+        </li>
+      </ul>
+
+      <p>
+        &copy; 2025 - Designed and developed by Derrik Youmans
+      </p>
+    </div>
+  </footer>
+
+  <a href="#top" class="back-to-top" title="Back to Top">
+    <img src="./images/arrow-up.svg" alt="Back to Top" class="back-to-top__image"/>
+  </a>
+
+  <script>
+    // Filter functionality
+    const filterButtons = document.querySelectorAll('.project-filter-btn');
+    const projectCards = document.querySelectorAll('.portfolio-project-card');
+
+    filterButtons.forEach(button => {
+      button.addEventListener('click', () => {
+        // Remove active class from all buttons
+        filterButtons.forEach(btn => btn.classList.remove('active'));
+        // Add active class to clicked button
+        button.classList.add('active');
+
+        const filter = button.getAttribute('data-filter');
+
+        projectCards.forEach(card => {
+          if (filter === 'all' || card.getAttribute('data-category') === filter) {
+            card.classList.remove('hidden');
+          } else {
+            card.classList.add('hidden');
+          }
+        });
+      });
+    });
+
+    // Back to top button functionality
+    const backToTopBtn = document.querySelector('.back-to-top');
+
+    window.addEventListener('scroll', () => {
+      if (window.pageYOffset > 300) {
+        backToTopBtn.style.visibility = 'visible';
+        backToTopBtn.style.opacity = '1';
+      } else {
+        backToTopBtn.style.visibility = 'hidden';
+        backToTopBtn.style.opacity = '0';
+      }
+    });
+
+    // Smooth scrolling for navigation links
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        const target = document.querySelector(this.getAttribute('href'));
+        if (target) {
+          target.scrollIntoView({
+            behavior: 'smooth',
+            block: 'start'
+          });
+        }
+      });
+    });
+  </script>
+</body>
+
+</html>
