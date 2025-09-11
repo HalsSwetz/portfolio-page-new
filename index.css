@@ -362,7 +362,7 @@ a:hover {
 /* Header */
 .header {
     background: linear-gradient(rgba(15, 52, 96, 0.9), rgba(26, 26, 46, 0.8)), 
-        url('./images/header.jpg');
+        url('./images/header.png');
     height: 100vh;
     background-size: cover;
     background-position: center;
@@ -387,6 +387,18 @@ a:hover {
     font-family: var(--font-primary);
     font-size: var(--font-size-medium);
     color: var(--color-light);
+}
+
+#three-container {
+  width: 100%;
+  height: 200px; 
+  position: relative;
+  margin: 0 auto;
+}
+
+#three-container canvas {
+  display: block;
+  margin: 0 auto;
 }
 
 @media(max-width: 500px) {

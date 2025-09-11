@@ -28,7 +28,7 @@
     <div class="header__text-box row">
       <div class="header__text">
         <h1 class="heading-primary">
-          <span>Halsey Swetzoff</span>
+          <div id="three-container"></div>
         </h1>
         <p>Software Engineer </p>
         <a href="#contact" class="btn btn--primary">Get in touch</a>
@@ -85,7 +85,7 @@
           <!-- Personal Project 1 -->
           <div class="portfolio-project-card personal" data-category="personal">
             <div class="portfolio-project-badge personal">Personal</div>
-            <img src="images/project-1.jpg" alt="VIVA App" class="portfolio-project-image" />
+            <img src="images/VIVAscreenshot.png" alt="VIVA App" class="portfolio-project-image" />
             <div class="portfolio-project-content">
               <h3 class="portfolio-project-title">VIVA</h3>
               <p class="portfolio-project-description">
@@ -112,7 +112,7 @@
           <!-- Project 2 -->
           <div class="portfolio-project-card personal" data-category="personal">
             <div class="portfolio-project-badge personal">Personal</div>
-            <img src="images/screenshot.png" alt="Waves" class="portfolio-project-image" />
+            <img src="images/WAVESapp.png" alt="Waves" class="portfolio-project-image" />
             <div class="portfolio-project-content">
               <h3 class="portfolio-project-title">Waves</h3>
               <p class="portfolio-project-description">
@@ -169,11 +169,11 @@
            <!-- Personal Project 4 -->
           <div class="portfolio-project-card personal" data-category="personal">
             <div class="portfolio-project-badge personal">Personal</div>
-            <img src="images/dashboard.jpg" alt="BudgeEase" class="portfolio-project-image" />
+            <img src="images/BudgEaseScreen1.png" alt="BudgEase" class="portfolio-project-image" />
             <div class="portfolio-project-content">
-              <h3 class="portfolio-project-title">BudgeEase</h3>
+              <h3 class="portfolio-project-title">BudgEase</h3>
               <p class="portfolio-project-description">
-                BudgeEase is a modern, Django-based budget management system designed specifically for freelancers and small businesses. I built this application to simplify the budget tracking process after struggling with overly complex accounting software when running my own small business. I wanted something where you could easily input monthly budget items and get useful summaries, visualizations, and more.
+                BudgEase is a modern, Django-based budget management system designed specifically for freelancers and small businesses. I built this application to simplify the budget tracking process after struggling with overly complex accounting software when running my own small business. I wanted something where you could easily input monthly budget items and get useful summaries, visualizations, and more.
               </p>
               <ul class="portfolio-project-tech">
                 <li>Python</li>
@@ -261,7 +261,7 @@
           </div>
 
           <div class="about__photo-container">
-            <img class="about__photo" src="./images/profilePic.jpeg" alt="Halsey Swetzoff" />
+            <img class="about__photo" src="./images/" alt="Halsey Swetzoff" />
           </div>
         </div>
       </div>
@@ -309,6 +309,8 @@
   </a>
 
   <script>
+
+    
     // Filter functionality
     const filterButtons = document.querySelectorAll('.project-filter-btn');
     const projectCards = document.querySelectorAll('.portfolio-project-card');
@@ -358,7 +360,9 @@
         }
       });
     });
-  </script>
+    </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+  <script src="three-text.js"></script>
 </body>
 
 </html>
