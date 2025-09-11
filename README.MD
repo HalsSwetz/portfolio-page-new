@@ -4,7 +4,7 @@
 
 ##  Welcome to My Portfolio
 
-Hi! I'm Halsey Swetzoff, a Software Engineer from Colorado. I specialize in full-stack development with JavaScript, Python, and many other modern frameworks and technologies. This portfolio showcases my projects, skills, and journey as a developer.
+Hi! I'm Halsey Swetzoff, a Software Engineer from Colorado. I specialize in full-stack development with JavaScript, Python, and other modern frameworks and technologies. This portfolio showcases my projects, skills, and journey as a developer.
 
 **[View Live Portfolio]()** 👈 Check out my work!
 
@@ -31,7 +31,7 @@ Social platform for bartenders to share cocktail recipes and discover new drinks
 ## 💻 Skills
 
 ### Front-End
-- JavaScript (ES6+)
+- JavaScript
 - HTML5 & CSS3
 - React
 - Responsive Design
