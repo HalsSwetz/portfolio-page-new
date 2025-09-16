@@ -7,7 +7,7 @@ function initThreeJS() {
     scene = new THREE.Scene();
     
     camera = new THREE.OrthographicCamera(-10, 10, 7.5, -7.5, 0.1, 1000);
-    camera.position.set(5, 5, 5);
+    camera.position.set(4, -5, 4.5);
     camera.lookAt(0, 0, 0);
     
     renderer = new THREE.WebGLRenderer({ 
@@ -20,7 +20,7 @@ function initThreeJS() {
     
     shader_material = new THREE.ShaderMaterial({
         uniforms: {
-            uTexture: { type: "t", value: new THREE.TextureLoader().load('images/halsey-text.png') },
+            uTexture: { type: "t", value: new THREE.TextureLoader().load('images/halsey-text1.png') },
             uDisplacement: { value: new THREE.Vector3(0, 0, 0) }
         },
         vertexShader: `
@@ -70,6 +70,35 @@ function initThreeJS() {
     const geometry = new THREE.PlaneGeometry(15, 15, 100, 100);
     plane = new THREE.Mesh(geometry, shader_material);
     scene.add(plane);
+
+    const shadow_material = new THREE.ShaderMaterial({
+    uniforms: {
+        uTexture: { type: "t", value: new THREE.TextureLoader().load('images/halsey-text-shadow1.png') },
+        uDisplacement: { value: new THREE.Vector3(0, 0, 0) }
+    },
+    vertexShader: `
+        varying vec2 vUv;
+        void main() {
+            vUv = uv;
+            gl_Position = projectionMatrix * modelViewMatrix * vec4(position,1.0);
+        }
+    `,
+    fragmentShader: `
+        varying vec2 vUv;
+        uniform sampler2D uTexture;
+        void main() {
+            vec4 color = texture2D(uTexture, vUv);
+            gl_FragColor = vec4(color);
+        }
+    `,
+    transparent: true,
+    depthWrite: false,
+    side: THREE.DoubleSide
+});
+
+const shadow_plane = new THREE.Mesh(geometry, shadow_material);
+shadow_plane.position.z = -0.01;
+scene.add(shadow_plane);
     
     const hitGeometry = new THREE.PlaneGeometry(20, 20);
     hit = new THREE.Mesh(hitGeometry, new THREE.MeshBasicMaterial({
