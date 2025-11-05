@@ -571,10 +571,10 @@ a:hover {
 
 .about__text {
     flex: 0 0 60%;
-    /* padding-right: var(--spacing-md); */
+    padding-right: var(--spacing-md);
 }
 
-/* .about__photo-container {
+.about__photo-container {
     flex: 0 0 40%;
     padding-left: var(--spacing-md);
 }
@@ -587,7 +587,7 @@ a:hover {
 
 .about__photo:hover {
     transform: scale(1.05);
-} */
+}
 
 @media(max-width: 900px) {
     .about__text,
@@ -845,4 +845,13 @@ a:hover {
     .portfolio-projects-grid {
         grid-template-columns: 1fr;
     }
+}
+
+.contact__info {
+  text-align: center;
+}
+
+.contact__info .btn {
+  margin: 2rem auto 0 auto;
+  display: inline-block;
 }
